@@ -1,0 +1,1 @@
+{"ObjAry":[{"id":4001,"name":"Ãû³Æ","icon":"","describe":"","effect":"","ranks1":[{"id":4003,"cell":0,"RX":0,"RY":0,"RZ":0},{"id":4002,"cell":1,"RX":0,"RY":0,"RZ":0}],"ranks2":[{"id":4001,"cell":92,"RX":0,"RY":180,"RZ":0},{"id":4004,"cell":92,"RX":0,"RY":180,"RZ":0}],"skillEnenyOver":false,"deathOver":false}]}
