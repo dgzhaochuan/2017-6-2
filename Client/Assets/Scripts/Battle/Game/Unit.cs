@@ -115,7 +115,7 @@ public class Unit : MonoBehaviour,IDamage
     public int  Hit(int value)
     {
         int damage = value;
-        BattlePanel.Instance.UpdateHudText(UIPoint, damage, HudTextEnum.hp);
+        BattlePanel.Instance.UpdateHudText(UIPoint, -damage, HudTextEnum.hp);
         currentHP -= damage;
         hud.UpdateValue(DataModel[DataEnum.hp], currentHP);
         if(currentHP <= 0)
@@ -144,6 +144,7 @@ public class Unit : MonoBehaviour,IDamage
     public void Die()
     {
         IsDie = true;
+        cell.unit = null;
         Manage.Instance.Battle.UnitDie(this);
     }
     public void Cure(int value)

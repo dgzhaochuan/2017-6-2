@@ -47,7 +47,7 @@ public class HudText : PoolObj
         this.target = target;
         startTime = Time.time;
         Color color = Color.white;
-        string str=(value>0?"":"-")+value;
+        string str=(value>0?"+":"")+value;
         switch (type)
         {
             case HudTextEnum.hp:
